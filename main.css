@@ -1,0 +1,67 @@
+/*Public Style*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.clr{
+    clear:both;
+}
+a{
+    text-decoration:none;
+}
+.container{
+    width:80%;
+    margin:auto;
+}
+/*navbar*/
+.navbar{
+    background-color:black;
+    font-family: cursive;
+}
+.logo{
+    float:left;
+    margin-top:5px;
+}
+.logo img{
+width:50%;
+}
+.navbar .list{
+float:right;
+margin-top:5px;
+}
+.list ul{
+    list-style-type:none;
+}
+.list ul li{
+    float:left;
+    margin-right:15px;
+}
+.list a{
+    color:white;
+    margin-right:15px;
+}
+.test{
+    background-color:rgb(0, 255, 149);
+    text-align: center;
+    font-family: cursive;
+}
+.demo{
+    background-color:rgb(3, 212, 142);
+    text-align: center;
+    font-family: cursive;
+}
+.portfolio{
+    background-color:rgb(220, 255, 243);
+    text-align:center;
+    font-family: cursive;
+  }
+.portfolio-item{
+    float:left;
+    width:33.33%;
+    padding-right:30px;
+  }
+  .potfolio img{
+    display:block;
+    width:33.33%;
+  }
